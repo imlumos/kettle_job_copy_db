@@ -10,7 +10,7 @@
 
 
 
-![1](.\images\1.png)
+![1](./images/1.png)
 
 
 
@@ -18,15 +18,15 @@
 
 ##### 配置sync_data_job:
 
-![4](.\images\4.png)
+![4](./images/4.png)
 
 ### 具体细节(见截图)
 
 #### 获取所有表名.tr
 
-![2](.\images\2.png)
+![2](./images/2.png)
 
-![3](.\images\3.png)
+![3](./images/3.png)
 
 ##### sql脚本
 
@@ -38,16 +38,16 @@ select table_name from information_schema.tables where table_schema='xxxx'
 
 #### 同步数据作业.jb
 
-![5](.\images\5.png)
+![5](./images/5.png)
 
 ##### 设置环境变量.tr
 
 从结果集中获取表名放入环境变量中
 
-![6](.\images\6.png)
+![6](./images/6.png)
 
 ##### 同步数据.tr
 
 先清空目标表数据,然后查询源表数据做数据插入
 
-![7](.\images\7.png)
+![7](./images/7.png)
